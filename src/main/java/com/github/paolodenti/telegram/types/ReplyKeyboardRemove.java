@@ -4,7 +4,7 @@ import com.fasterxml.jackson.databind.PropertyNamingStrategy;
 import com.fasterxml.jackson.databind.annotation.JsonNaming;
 
 @JsonNaming(PropertyNamingStrategy.SnakeCaseStrategy.class)
-public class ReplyKeyboardRemove {
+public class ReplyKeyboardRemove implements SendMessageMarkup  {
 	private Boolean removeKeyboard;
 
 	private Boolean selective;

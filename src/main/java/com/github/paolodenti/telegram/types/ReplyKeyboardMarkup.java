@@ -6,7 +6,7 @@ import com.fasterxml.jackson.databind.PropertyNamingStrategy;
 import com.fasterxml.jackson.databind.annotation.JsonNaming;
 
 @JsonNaming(PropertyNamingStrategy.SnakeCaseStrategy.class)
-public class ReplyKeyboardMarkup {
+public class ReplyKeyboardMarkup implements SendMessageMarkup {
 	private List<List<KeyboardButton>> keyboard;
 
 	private Boolean resizeKeyboard;

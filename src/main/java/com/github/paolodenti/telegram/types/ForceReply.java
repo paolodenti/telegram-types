@@ -4,7 +4,7 @@ import com.fasterxml.jackson.databind.PropertyNamingStrategy;
 import com.fasterxml.jackson.databind.annotation.JsonNaming;
 
 @JsonNaming(PropertyNamingStrategy.SnakeCaseStrategy.class)
-public class ForceReply {
+public class ForceReply implements SendMessageMarkup {
 	private Boolean forceReply;
 
 	private Boolean selective;

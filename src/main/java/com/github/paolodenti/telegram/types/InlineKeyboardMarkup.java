@@ -6,7 +6,7 @@ import com.fasterxml.jackson.databind.PropertyNamingStrategy;
 import com.fasterxml.jackson.databind.annotation.JsonNaming;
 
 @JsonNaming(PropertyNamingStrategy.SnakeCaseStrategy.class)
-public class InlineKeyboardMarkup {
+public class InlineKeyboardMarkup implements SendMessageMarkup {
 	private List<List<InlineKeyboardButton>> inlineKeyboard;
 
 	public List<List<InlineKeyboardButton>> getInlineKeyboard() {
