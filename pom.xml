@@ -4,7 +4,7 @@
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>com.github.paolodenti</groupId>
 	<artifactId>telegram-types</artifactId>
-	<version>1.0.5</version>
+	<version>1.0.6</version>
 	<name>telegram-types</name>
 	<description>Telegram data types</description>
 	<url>https://github.com/paolodenti/telegram-types</url>
