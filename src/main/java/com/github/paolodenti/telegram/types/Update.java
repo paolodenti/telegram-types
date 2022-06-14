@@ -8,7 +8,7 @@ import com.fasterxml.jackson.databind.annotation.JsonNaming;
 @JsonInclude(Include.NON_NULL)
 @JsonNaming(PropertyNamingStrategy.SnakeCaseStrategy.class)
 public class Update {
-	private Integer updateId;
+	private Long updateId;
 
 	private Message message;
 
@@ -28,11 +28,11 @@ public class Update {
 
 	private PreCheckoutQuery preCheckoutQuery;
 
-	public Integer getUpdateId() {
+	public Long getUpdateId() {
 		return updateId;
 	}
 
-	public void setUpdateId(Integer updateId) {
+	public void setUpdateId(Long updateId) {
 		this.updateId = updateId;
 	}
 

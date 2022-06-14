@@ -4,7 +4,7 @@
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>com.github.paolodenti</groupId>
 	<artifactId>telegram-types</artifactId>
-	<version>1.0.4</version>
+	<version>1.0.5</version>
 	<name>telegram-types</name>
 	<description>Telegram data types</description>
 	<url>https://github.com/paolodenti/telegram-types</url>
@@ -41,7 +41,7 @@
 
 		<jdk.version>1.7</jdk.version>
 
-		<jackson-databind.version>2.9.10.4</jackson-databind.version>
+		<jackson-databind.version>2.9.10.8</jackson-databind.version>
 	</properties>
 
 	<profiles>

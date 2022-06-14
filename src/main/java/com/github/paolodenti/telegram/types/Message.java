@@ -10,7 +10,7 @@ import com.fasterxml.jackson.databind.annotation.JsonNaming;
 @JsonInclude(Include.NON_NULL)
 @JsonNaming(PropertyNamingStrategy.SnakeCaseStrategy.class)
 public class Message {
-	private Integer messageId;
+	private Long messageId;
 
 	private User from;
 
@@ -22,7 +22,7 @@ public class Message {
 
 	private Chat forwardFromChat;
 
-	private Integer forwardFromMessageId;
+	private Long forwardFromMessageId;
 
 	private String forwardSignature;
 
@@ -94,11 +94,11 @@ public class Message {
 
 	private String connectedWebsite;
 
-	public Integer getMessageId() {
+	public Long getMessageId() {
 		return messageId;
 	}
 
-	public void setMessageId(Integer messageId) {
+	public void setMessageId(Long messageId) {
 		this.messageId = messageId;
 	}
 
@@ -142,11 +142,11 @@ public class Message {
 		this.forwardFromChat = forwardFromChat;
 	}
 
-	public Integer getForwardFromMessageId() {
+	public Long getForwardFromMessageId() {
 		return forwardFromMessageId;
 	}
 
-	public void setForwardFromMessageId(Integer forwardFromMessageId) {
+	public void setForwardFromMessageId(Long forwardFromMessageId) {
 		this.forwardFromMessageId = forwardFromMessageId;
 	}
 
